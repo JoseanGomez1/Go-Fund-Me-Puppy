@@ -1,0 +1,35 @@
+/* .MainNav{
+    background-color: gold;
+}
+
+.MainNav img {
+    width: 3rem;
+    height: auto;
+} */
+
+/* MainNav.css */
+
+.MainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .MainNav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .MainNav img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .MainNav div {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
